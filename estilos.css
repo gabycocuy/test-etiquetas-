@@ -48,6 +48,58 @@ section img {
 }
 div {
     background-color: lightgray;
-    border-color: grey;
 }
  
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+.product {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    
+}
+.product img {
+    width: 100%;
+    height: center;
+    margin-bottom: 10px;
+}
+.product h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.product p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+.product a {
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    display: inline-block;
+}
+.product a:hover {
+    background-color: aqua;
+    color: white;
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+section div form{
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+}

@@ -42,35 +42,51 @@
 
        <div>
         <h1>Conece nuestros productos</h1> 
-        <figure>
-            <table>
-                <tr>
-             <img src="producto2.jpg" alt="premios" width="200" height="200">
-             <figcaption>Premios para cachorros</figcaption>  
-                </tr>
-                <tr>
-             <img src="producto1.jpg" alt="correa" width="200" height="200">
-             <figcaption>Correa ajustable</figcaption>  
-                </tr>
-                <tr>
-             <img src="producto3.jpg" alt="bolsas" width="200" height="200">
-             <figcaption>Caja de bolsas de basura</figcaption>  
-                </tr>
-            </table>
-              
-            
-        </figure>
-        
-       
-         
-      
-         
-         
+        <section class="products">
+            <div class="product">
+                <img src="./producto1.jpg" alt="Correa ajustable">
+                <h2>Correa ajustable</h2>
+                <a href="Productos.html"><i class="fa fa-shopping-cart"></i>Comprar</a>
+            </div>
+            <div class="product">
+                <img src="./producto2.jpg" alt="Premios cachorro">
+                <h2>Premios para cachorros</h2>
+                <a href="Productos.html"><i class="fa fa-shopping-cart"></i>Comprar</a>
+            </div>
+            <div class="product">
+                <img src="./producto3.jpg" alt="Caja de bolsas">
+                <h2>Caja de bolsas</h2>
+                <a href="Productos.html"><i class="fa fa-shopping-cart"></i>Comprar</a>
+            </div>
+        </section>
 
-       </div>
-        
-         
+        <section class="contacto">
+        <div class="contacto">
+                <h1> Contactanos</h1>
+             📅 Horario de atención: lunes a viernes de 8:00am - 8:00 pm sabado y domingo de 8:00am - 5:00pm <br>
+             📞 Teléfono: 3138994752 <br>
+             📧 Correo electrónico: huellitas@gmail.com<br>
        
+            </div>
+        </section>
+        <section class="contacto">
+            <div class="contacto">
+            <form action="/procesar" method="POST">
+                <label for="nombre">Nombre</label> <br>
+                <input type="text" id="nombre" name="nombre"> 
+            </form>
+            <br>
+            <br>
+
+             <form>
+                    <label>Email</label> <br>
+                    <input type="email" name="correo"> <br>
+                    <button type="submit">Ingresar</button>
+             </form>
+        </div>
+        </section>
+        
         
     </body>
-</html>
+    </html>
+
